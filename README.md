@@ -1,2 +1,2 @@
 # Web-tekniikat
-Exercises
+My course codes
