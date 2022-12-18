@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+</head>
+<body>
+    <form id="box" class="box">
+        <label for="fname">Name:</label>
+        <input type="text" name="fname" id="fname" maxlength="50" placeholder="John Doe" required/>
+        <p>Note:</p>
+        <p><textarea id="note" name="note"></textarea></p>
+        <input type="checkbox" name="suggestion" id="suggestion">
+        <label for="">Important</label>
+        <br>
+        <button type="button"  onclick="noteCreate()">Add note</button>
+    </form> 
+    <p id="notesHere"></p>
+    <script src="code.js"></script>
+</body>
+</html>
