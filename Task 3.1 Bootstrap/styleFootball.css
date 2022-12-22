@@ -22,7 +22,9 @@ body {
     margin-bottom: 100px;
 }
 
-.footer {
-    min-height: 150px;
+.team_col{
+    font-size: 13px; 
 }
-
+.footer {
+    max-height: 100px;
+}
