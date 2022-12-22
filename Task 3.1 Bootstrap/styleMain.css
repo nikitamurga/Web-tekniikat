@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    font-size: 30px;
+}
+
+.block {
+    background-color: rgb(221, 221, 221);
+    border: solid 1px rgb(170, 170, 170);
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+
+.promo {
+    min-height: 460px;
+}
+
+.footer {
+    min-height: 150px;
+}
